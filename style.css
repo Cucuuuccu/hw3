@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f0f3d8;
+  color: #333;
+}
+
+.site-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px 80px 50px 80px;
+}
+
+header {
+  padding: 0; 
+  background-color: #f0f3d8;
+}
+
+.header-top-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #4b612c;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin-top: 0; 
+  background-color: #4b612c; 
+  padding: 0; 
+  border-radius: 0; 
+  height: 40px; 
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px; 
+  height: 40px; 
+  line-height: 20px; 
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  text-align: right;
+  gap: 10px;
+  font-size: 1.4em;
+}
+
+.square button {
+  background-color: #f0f3d8; 
+  border: 1px solid #4b612c;
+  color: #4b612c;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+.square .img-btn {
+  border: none;  
+  padding: 0;   
+  display: inline-block;
+}
+
+.square .img-btn img {
+    width: 25px; 
+    height: 25px; 
+    vertical-align: middle; 
+}
+
+.pump {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0; 
+}
+
+.pump img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0; 
+  margin-right: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
+}
+
+.left {
+  border-radius: 4px;
+  padding: 0px;
+  flex: 1;
+}
+
+.right {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0px;
+  flex: 1;
+}
+
+.section-title {
+  background-color: #4b612c;
+  color: white;
+  padding: 10px; 
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px; 
+}
+
+.right .text {
+    background-color: #f7f8ec; 
+    padding: 15px; 
+    border-radius: 4px;
+    margin-top: 0;
+}
+
+.right .text p {
+    margin-bottom: 10px;
+}
+
+.contact-divider {
+    border: none; 
+    border-top: 1px solid #060000; 
+    margin: 0px 0; 
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; 
+}
+
+.gallery img {
+  width: 31%; 
+  height: 100; 
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #4b612c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
